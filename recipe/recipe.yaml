@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "42.7.13"
+  version: "42.7.14"
 
 package:
   name: pgjdbc
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://repo1.maven.org/maven2/org/postgresql/postgresql/${{ version }}/postgresql-${{ version }}-jdbc-src.tar.gz
-  sha256: 4537ba157c6eab9022d0a48bb6e6ca5a736ced8cc7121e1276322fb104dd3718
+  sha256: 1f38e5e32f1e9b2200f6c0e7cce02d635d7bc14b35dff803a52e09cd666a16b9
 
 build:
   number: 0
